@@ -1,0 +1,27 @@
+<p><b>How to create Fantomcoin wallet?</b></p>
+<ol>
+    <li> Download binaries on <a href="http://fantomcoin.org/" target="_blank">http://fantomcoin.org/</a></li>
+
+    <li>Run fantomcoind and make sure it is synchronized with the blockchain</li>
+
+    <li> Make sure that daemon is running</li>
+
+    <li> Launch simplewallet with several arguments to create a new wallet. E.g.:<br>
+
+        <code>simplewallet --generate-new-wallet=wallet_name.bin --pass=12345</code>
+
+        where “wallet_name.bin” is the file name for your new wallet, and “12345” is its password.
+        Please, use “*.bin” file extension and make sure to use a strong password to protect
+        your funds.
+    </li>
+
+    <li> The wallet is generated. In order to synchronize it with the blockchain and start
+        using your wallet use “refresh” command:
+
+        <code>refresh</code>
+
+        This will start the wallet synchronization process. It may take some time to finish.</li>
+    
+    <li> When wallet is synchronized, you should use "save" or “exit” commands to save current
+        progress.</li>
+</ol>

@@ -1,0 +1,36 @@
+<p>
+  This calculator allows you to calculate profit from mining BTC, LTC and cryptonote coins
+  (Bytecoin, Monero, FantomCoin, QuazarCoin, duckNote, MonetaVerde, Aeon coin, Dashcoin, Infinium-8).
+</p>
+<ol>
+    <li> Choose coin;</li>
+    <li> Fill in your hashrate;</li>
+    <li> See cryptonote mining profitability.</li>
+</ol>
+<p>
+    Please note that it is an estimate amount of cryptocoins you can get. The actual value may be different.
+    Your profit depends on network difficulty, block reward, transactions amount and fee.
+    Exchange rates are based on current rates of 
+    <a href='https://poloniex.com' target='_blank'>Poloniex</a>, <a href='https://hitbtc.com' target='_blank'>hitbtc</a>
+</p>
+
+<p>
+  This calculation is based on PPS payment mode with current pool fee, 0% bad shares and orphans.
+</p>
+<p>
+  PPS is "pay per share", a mining pool reward system where the operator gives a set payment per share submitted
+  proportional to its average worth, regardless of how many valid blocks the pool finds. This way the miner
+  doesn't suffer any variance.
+</p>
+
+<p>
+  Calculation is based on the following formulas:
+</p>
+        
+<p>For cryptonote based currencies (Bytecoin, Monero, Quazarcoin, duckNote, etc.):</p>
+
+<p><b> Reward = ((hashrate * block_reward) / current_difficulty) * (1 - pool_fee) * 3600</b></p>
+
+<p>For Bitcoin:</p>
+
+<p><b> Reward = ((hashrate * block_reward) / (current_difficulty * 2^32)) * (1 - pool_fee) * 3600</b></p>

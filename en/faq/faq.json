@@ -1,0 +1,49 @@
+[
+    {"title": "About Minergate", "questions":[
+        {"url": "about", "title": "About Minergate"},
+        {"url": "about-minergate-pool", "title": "Supported currencies"}
+    ]},
+
+    {"title": "Mining", "questions":[
+        {"url": "how-to-mine-on-window", "title": "How to mine Bytecoin, Monero, QuazarCoin, Litecoin, duckNote, Fantomcoin, MonetaVerde, Aeon coin, Dashcoin, Infinium-8 on Windows?"},
+        {"url": "how-to-mine-on-mac", "title": "How to mine Bytecoin, Monero, QuazarCoin, Litecoin, duckNote, Fantomcoin, MonetaVerde, Aeon coin, Dashcoin, Infinium-8 on Mac?"},
+        {"url": "how-to-mine-on-linux", "title": "How to mine Bytecoin, Monero, QuazarCoin, Litecoin, duckNote, Fantomcoin, MonetaVerde, Aeon coin, Dashcoin, Infinium-8 on Linux?"},
+        {"url": "what-pool-address", "title": "What\"s the pool address and port for Bytecoins, Monero, QuazarCoin, duckNote, Fantomcoin, MonetaVerde, Aeon coin, Dashcoin, Infinium-8?"},
+        {"url": "what-pool-address-btc", "title": "What\"s the pool address and port for Bitcoin, Litecoin?"},
+        {"url": "how-minergate-console", "title": "How to start mining with Minergate Console miner?"},
+        {"url": "how-to-run-admin-edition-miner", "title": "How to start mining with Minergate Admin Edition miner?"},
+        {"url": "invalid-shares-policy", "title": "Invalid shares policy"}
+    ]},
+
+    {"title": "Wallet", "questions":[
+        {"url": "how-to-create-bytecoin-wallet", "title": "How to create Bytecoin wallet?"},
+        {"url": "how-to-create-monero-wallet", "title": "How to create Monero wallet?"},
+        {"url": "how-to-create-quazarcoin-wallet", "title": "How to create QuazarCoin wallet?"},
+        {"url": "how-to-create-ducknote-wallet", "title": "How to create duckNote wallet?"},
+        {"url": "how-to-create-fantomcoin-wallet", "title": "How to create Fantomcoin wallet?"},
+        {"url": "how-to-create-monetaverde-wallet", "title": "How to create MonetaVerde wallet?"},
+        {"url": "how-to-create-aeon-wallet", "title": "How to create Aeon coin wallet?"},
+        {"url": "how-to-create-dashcoin-wallet", "title": "How to create Dashcoin wallet?"},
+        {"url": "how-to-create-infinium-8-wallet", "title": "How to create Infinium-8 wallet?"}
+    ]},
+
+    {"title": "Rewards", "questions": [
+        {"url": "difference-between-pps-and-pplns", "title": "What’s difference between PPS and PPLNS payment models?"}
+    ]},
+
+    {"title": "Withdrawals", "questions":[
+        {"url": "how-to-withdraw-funds-to-the-wallet", "title": "How to withdraw funds to the wallet?"},
+        {"url": "how-to-withfraw-funds-to-the-exchange", "title": "How to withdraw funds to the exchange?"}
+    ]},
+
+    {"title": "Interface", "questions":[
+        {"url": "what-do-numbers-dashboard-mean", "title": "What do the numbers on dashboard mean?"},
+        {"url": "what-do-numbers-miner-mean", "title": "What do the numbers in miner mean?"}  ,
+        {"url": "miner-2-computer", "title": "When I have miner running on 2 computer, the balance and unconfirmed are both different"}
+    ]},
+
+    {"title": "Affiliate program", "questions":[
+        {"url": "affiliate-terms", "title": "Affiliate program Terms and Conditions"}
+    ]}
+
+]

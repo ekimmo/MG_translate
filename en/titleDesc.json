@@ -1,0 +1,142 @@
+{
+    "affiliate": {
+        "title": "Affiliate program - Minergate.com",  
+        "desc": "Affiliate program"  
+    },    
+    
+    "altminers-ccminer": {
+        "title": "ccminer-cryptonight by tsiv miner - Minergate",
+        "desc": "Download, discussion, pool settings: {{ currencyNames }}"
+    },
+    "altminers-claymore-cpu": {
+        "title": "Claymore cryptonote CPU miner - Minergate",
+        "desc": "Download, discussion, pool settings: {{ currencyNames }}"
+    },
+    "altminers-claymore-gpu": {
+        "title": "Claymore cryptonote GPU miner - Minergate",
+        "desc": "Download, discussion, pool settings: {{ currencyNames }}"
+    },
+    "altminers-cpuminer-multi-wolf": {
+        "title": "CPUMiner by Wolf and Lucas Jones - Minergate",
+        "desc": "Download, discussion, pool settings: {{ currencyNames }}"
+    },
+    "altminers-yam": {
+        "title": "Yam miner - Minergate - Minergate",
+        "desc": "Download, discussion, pool settings: {{ currencyNames }}"
+    },
+
+    "articles-about": {
+        "title": "About - MinerGate",
+        "desc": "Minergate is a mining pool created by a group of cryptocoin enthusiasts."
+    },
+    "articles-terms-of-use": {
+        "title": "Terms of Use - MinerGate",
+        "desc": "Terms of use. Privacy policy: what we collect, what we do with the information"
+    },
+    "blog": {
+        "title": "Blog - MinerGate",
+        "desc": "Recent updates and news"
+    },
+    "tutorial": {
+        "title": "Mining tutorial - MinerGate",
+        "desc": "The easiest steps to start mining {{ currencyNames }}"
+    },
+
+
+    "blockchain-blocks": {
+        "title": "{{ currencyName }} blockchain",
+        "desc": "{{ currencyName }} block explorer: height, timestamp, size, transactions, hash"
+    },
+    "blockchain-block": {
+        "title": "{{ currencyName }} block: {{ hash }}",
+        "desc": "{{ currencyName }} block: height, timestamp, difficulty, reward, orphan, transactions, block size"
+    },
+    "blockchain-transaction": {
+        "title": "{{ currencyName }} transaction: {{ hash }}",
+        "desc": "{{ currencyName }} transaction: fee, amount, size, extra nonce, one-time public key, extra raw; inputs, outputs"
+    },
+    "blockchain-transpool": {
+        "title": "{{ currencyName }} blockchain: transactions",
+        "desc": "Online updated {{ currencyName }} transactions pool"
+    },
+
+    "calc": {
+        "title": "{{ currencyTypes }} mining profitability calculator - MinerGate",
+        "desc": "Calculate {{ currencyNames }} mining profitability"
+    },
+
+    "charts": {
+        "title": "Charts - MinerGate",
+        "desc": "Difficulty & Hashrate, Coins Amount & Block Reward of {{ currencyTypes }}"
+    },
+
+    "downloads-gui": {
+        "title": "Download Minergate miner - Win, Mac, Ubuntu, Open-source",
+        "desc": "Download the easiest multi platform miners for cryptonote based cryptocurrencies"
+    },
+    "downloads-console": {
+        "title": "Download Console miner",
+        "desc": "Download console miners for cryptonote based cryptocurrencies"
+    },
+    "downloads-admin": {
+        "title": "Download miner admin edition",
+        "desc": "Download miner admin edition for cryptonote based cryptocurrencies"
+    },
+
+    "faq": {
+        "title": "FAQ - MinerGate",
+        "desc": "How to start mining, create wallet, withdraw; Interface questions"
+    },
+
+    "fees": {
+        "title": "Minergate pool fees for PPS and PPLNS",
+        "desc": "PPS and PPLNS fees for {{ currencyNames }}"
+    },
+
+    "internal-dashboard": {
+        "title": "Minergate dashboard",
+        "desc": ""
+    },
+    "internal-reward": {
+        "title": "Minergate reward history",
+        "desc": ""
+    },
+    "internal-profile": {
+        "title": "Minergate profile",
+        "desc": ""
+    },
+    "internal-transactions": {
+        "title": "Minergate withdrawal history",
+        "desc": ""
+    },
+
+    "login": {
+        "title": "Log in to minergate",
+        "desc": "Continue cryptonote mining"
+    },
+
+    "main": {
+        "title": "MinerGate.com - {{ currencyNames }} mining pool",
+        "desc": "Mine {{ currencyNames }}in with the easiest miner ever"
+    },
+
+    "reg": {
+        "title": "Sign up to cryptonote mining pool",
+        "desc": "Start mining with with the fastest cryptonote miner"
+    },
+
+    "stats": {
+        "title": "Pool stats - MinerGate - {{ currency }}",
+        "desc": "Pool and world hashrate, payment method and pool blocks"
+    },
+    
+    "support": {
+        "title": "Support - MinerGate",
+        "desc": "Support"
+    },
+
+    "webminer": {
+        "title": "Web Miner - MinerGate",
+        "desc": "{{ webCurrencies }}"
+    }
+}

@@ -1,0 +1,13 @@
+<p><b>How to create Infinium-8 wallet?</b></p>
+<ol>
+    <li>Download binaries on <a href="https://bitcointalk.org/index.php?topic=698727.0" target="_blank">https://bitcointalk.org/index.php?topic=698727.0</a></li>
+    <li>Run infinium-8 and make sure it is synchronized with the blockchain</li>
+    <li>Make sure that daemon is running</li>
+    <li>Launch simplewallet with several arguments to create a new wallet. E.g.:
+         <code>simplewallet --generate-new-wallet=wallet_name.bin --pass=12345</code> 
+         where “wallet_name.bin” is the file name for your new wallet, and “12345” is its password. 
+         Please, use “*.bin” file extension and make sure to use a strong password to protect your funds.</li>
+    <li>The wallet is generated. In order to synchronize it with the blockchain and start using your wallet 
+        use “refresh” command: refresh .This will start the wallet synchronization process. It may take some time to finish.</li>
+    <li>When wallet is synchronized, you should use "save" or “exit” commands to save current progress.</li>
+</ol>

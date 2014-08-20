@@ -1,0 +1,86 @@
+<p><b>How to create Bytecoin wallet?</b></p>
+<p>Preparatory stage:<br>
+download binaries from <a href="http://bytecoin.org/" target="_blank">http://bytecoin.org/</a></p>
+
+<p>1. Launch command line, navigate to Bytecoin's folder (e.g., “c:\bytecoin”)and launch “bytecoind” (Bytecoin daemon).</p>
+
+<code>        
+cd c:\bytecoin<br>
+bytecoind
+</code>
+
+<p><img src="/assets/faq/how-bcn-1.jpg"></p>
+
+<p>The daemon will start synchronizing the blockchain with the Bytecoin network. This may take some time.</p>
+
+<p><img src="/assets/faq/how-bcn-2.jpg"></p>
+
+<p><img src="/assets/faq/how-bcn-3.jpg"></p>
+
+<p>2a. Open another instance of command line and navigate to Bytecoin’s folder. Generate new wallet with “simplewallet”.</p>
+
+<code>
+simplewallet --generate-new-wallet=example_wallet.bin --pass=12345
+</code>
+        
+<p>Here “example_wallet.bin” is the name of the wallet (use .bin file extension) and “12345” is the password for your new wallet.</p>
+
+<p><img src="/assets/faq/how-bcn-4.jpg"></p>
+
+<p>Wallet’s response:</p>
+
+<p><img src="/assets/faq/how-bcn-5.jpg"></p>
+
+
+<p>Type in “refresh” command and press Enter:</p>
+
+<code>refresh</code>
+
+<p><img src="/assets/faq/how-bcn-6.jpg"></p>
+
+<p>The wallet will start synchronizing with the daemon:</p>
+
+<p><img src="/assets/faq/how-bcn-7.jpg"></p>
+
+ 
+<p>2b. Alternatively, you can open an existing wallet (instead of creating a new one).</p>
+
+<code>simplewallet --wallet-file=example_wallet.bin --pass=12345</code>
+
+<p>Here “example_wallet.bin” is the name of the wallet (use .bin file extension) and “12345” is its password.</p>
+
+<p><img src="/assets/faq/how-bcn-8.jpg"></p>
+
+<p>The wallet will start synchronizing with the daemon automatically. Once finished, you will be prompted with your current balance:</p>
+
+<p><img src="/assets/faq/how-bcn-9.jpg"></p>
+
+<p>3.Start mining right from the wallet using “start_mining” command. The screenshot below contains wallet’s response:</p>
+
+<code>start_mining</code>
+
+<p><img src="/assets/faq/how-bcn-10.jpg"></p>
+
+<p><img src="/assets/faq/how-bcn-11.jpg"></p>
+
+<p>Daemon’s response:</p>
+
+<p><img src="/assets/faq/how-bcn-12.jpg"></p>
+
+ 
+<p>4. You can check your current hashrate by using “show_hr” command in daemon. The daemon will start showing your current hashrate (number of hashes generated per second). Use “hide_hr” command to make the daemon stop showing hashrate:</p>
+
+<code>show_hr<br>
+hide_hr</code>
+
+<p><img src="/assets/faq/how-bcn-13.jpg"></p>
+
+<p>5. To stop mining simply use “stop_mining” command either in daemon or in wallet:</p>
+
+<code>stop_mining</code>
+
+ 
+
+<p>6. Do not forget to properly exit the daemon and wallet by using “exit” command:</p>
+
+<code>exit</code>

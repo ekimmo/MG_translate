@@ -1,0 +1,22 @@
+<p><b>Invalid shares policy</b></p>
+
+<p>In CryptoNight currencies calculating and verifying hashes takes a lot of computational power. 
+So, checking all shares sent by users will require pool to have dozens of servers.
+To avoid these expenses all CryptoNight pools only check a certain percentage of shares and simply trust the rest.</p>
+
+<p>This leaves a window for cheating. User can intentionally submit shares that do not solve the job given to them. 
+Such shares are discovered if checked by pool and called ‘Invalid Shares’.</p>
+
+<p>Opensource pools by default ban users if the percentage of invalid shares is bigger than 25%. However, Minergate is not going to allow hackers to cheat the pool and its users.
+Thus, we decided to implement the following policy:</p>
+
+<ul>
+ <li>For sending invalid share user gets penalty and his unconfirmed balance decreases.</li>
+ <li>Sending multiple invalid shares will lead to negative unconfirmed balance.</li>
+ <li>This will prevent cheaters from having funds in confirmed balance.</li>
+</ul>
+
+
+<p>Please note, that even if you are legit miner, you might sometimes, extremely rarely, submit an invalid share. Most likely you won’t, but it could happen. 
+That is most often caused by some bugs in mining apps.
+The penalty for this share will be very small compared to your earnings, so you can safely ignore it.</p>

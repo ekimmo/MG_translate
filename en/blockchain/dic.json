@@ -1,0 +1,36 @@
+{    
+  "block": {
+    "height": "Block index in the chain, counting from zero (i.e. genesis block).",
+    "timestamp": "Block timestamp displayed as UTC.<br>The timestamp correctness it up to miner, who mined the block.",
+    "difficulty": "Simply, it means how difficult it is to find a solution for the block.<br>More specifically, it`s mathematical expectation for number of hashes someone needs to calculate in order to find a correct nonce value solving the block.<br>Last block difficulty is often considered as current network difficulty.",
+    "orphan": "True, if the block belongs to an alternative chain.<br>In such case all the transactions, excluding coinbase, are removed from the block back to transaction pool to be included in another block. It means there is no reward for the miner.",
+    "transactions": "Number of transactions in the block, including coinbase transaction (which transfers block reward to the miner).",
+    "totalSize": "Cumulative size of all transactions in the block, including coinbase.<br>In case it's exceeding 'effective txs median' the reward penalty occurs and therefore miner receives less reward.",
+    "totalBlockBCN": "Size of the whole block, i.e. block header plus all transactions.<br>&lt;total&nbsp;block&nbsp;size&gt; = &lt;block&nbsp;header&gt; + &lt;total&nbsp;transactions&nbsp;size&gt;",
+    "totalBlock": "Size of the whole block, i.e. block header plus all transactions.",
+    "sizeMedian": "Median value of block total transactions size among last {{block.blockHeader.rewardBlocksWindow}} blocks.",
+    "txsMedian": "Bounded from below median value that is actually used to calculate penalty.<br>More specifically, &lt;effective median&gt; = max(&lt;current median&gt;, {{block.blockHeader.fullRewardMaxBlockSize}})",
+    "rewardPenalty": "Penalty for exceeding the median.<br>&lt;penalty&gt; = (&lt;total&nbsp;transactions&nbsp;size&gt; / &lt;effective&nbsp;tx&nbsp;median&gt; &minus; 1) ^ 2<br>No penalty if total transactions size is less then effective median.<br>Penalty is near 100% if total txs size is twice the effective median. Greater blocks are not allowed.",
+    "baseRewardBCN": "Base value for calculating the block reward. Does not depend on how many transactions are included into the block.<br>Also, this is how many coins the miner would receive if the block contains only coinbase transaction.",
+    "baseReward": "Base value for calculating the block reward. Does not depend on how many transactions are included into the block.",
+    "txFee": "Sum of fees for all transactions in the block.",
+    "rewardBCN": "Actual amount of coins the miner received for finding the block.<br>&lt;reward&gt; = &lt;base reward&gt; &times; (1 &minus; &lt;penalty&gt;) + &lt;transactions fee&gt;",
+    "reward": "Actual amount of coins the miner received for finding the block.",
+    "totalCoins": "Cumulative amount of coins issued by all the blocks in blockchain from the genesis and up to this block.",
+    "txTotal": "Cumulative number of transactions in the blockchain, from the genesis block and up to this block."
+  },
+  
+  "tx": {
+    "hash": "Unique fingerprint of the transaction.",
+    "recievedTime": "Time when the transaction was added into transaction pool.",
+    "comfirmTime": "Time when the transaction was included into a block.<br>For coinbase transactions it is equal to the block timestamp.",
+    "fee": "Money that goes to the miner, who included this transaction into block.",
+    "size": "Size of the transaction in bytes.",
+    "extraNonce": "The number that the miner calculates in order to solve the block.<br>Effective only for coinbase transactions (which transfers block reward to the miner).",
+    "extraKey": "Transaction's one-time public key. Please refer to CyptoNote whitepaper for more information.",
+    "extraRaw": "Raw representation of transaction's extra field. It may contain payment ID, nonce, public key etc.",
+    "paymentID": "Optional user-defined string. Can be used by anyone to distinguish the transactions easier.",
+    "mixinCount": "Denotes how many random inputs are mixed within this transactions in order to achieve desired level of anonimity.<br>Mixin count 1 means no additional inputs are mixed in and thus each input can be traced back."          
+  }
+    
+}

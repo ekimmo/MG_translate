@@ -1,0 +1,9 @@
+[
+    {"title": " ", "questions":[
+        {"url": "claymore-gpu", "title": "Claymore CryptoNote GPU Miner"},
+        {"url": "claymore-cpu", "title": "Claymore CryptoNote Windows CPU Miner"},
+        {"url": "ccminer", "title": "ccminer-cryptonight"},
+        {"url": "cpuminer-multi-wolf", "title": "CPUMiner-Multi"},
+        {"url": "yam", "title": "Yam miner"}
+    ]}
+]
